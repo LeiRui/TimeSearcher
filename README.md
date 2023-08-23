@@ -4,6 +4,8 @@ This repository implements a visualization of stock prices using D3.js. You can 
 git clone https://github.com/jackswiggett/TimeSearcher.git
 cd TimeSearcher
 python -m SimpleHTTPServer 8000
+In Python 3:
+python -m http.server 8000
 ```
 Then visit `http://localhost:8000/index.html` in your browser.
 
